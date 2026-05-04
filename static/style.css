@@ -43,3 +43,33 @@ header div{
         border-radius: 100%;
     }
 }
+
+#projetos{
+    background-color: black;
+    height: 500px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+    h2 {
+        margin: 0px;
+        color: white;
+    }
+}
+
+.proj-pai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 800px;
+    padding-top: 60px;
+}
+
+.proj-filho{
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 20px;
+    width: 400px;
+}
