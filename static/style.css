@@ -8,6 +8,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    padding-top: 40px;
+    border-bottom: 20px solid chartreuse;
+}
+
 /* ===== HEADER ===== */
 
 header h1 {
@@ -56,11 +61,13 @@ header div{
     background-color: black;
     height: 500px;
     padding-left: 40px;
-    padding-top: 20px;
 
     h2 {
-        margin: 0px;
         color: white;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+        margin: 0;
     }
 }
 
@@ -98,13 +105,13 @@ a {
 
 /* ===== INTEGRANTES ===== */
 
-.integrantesContainer {
+#integrantes {
   background-color: black;
   border-bottom: 20px solid chartreuse;
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
-.integrantesContainer h2 {
+#integrantes h2 {
   color: white;
   text-align: center;
   font-size: 32px;
@@ -148,6 +155,8 @@ a {
   margin-top: 15px;
   font-size: 18px;
 }
+
+/* ===== FOOTER ===== */
 
 .footer {
   background-color: chartreuse;
