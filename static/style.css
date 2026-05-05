@@ -148,3 +148,19 @@ a {
   margin-top: 15px;
   font-size: 18px;
 }
+
+.footer {
+  background-color: chartreuse;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-endereco {
+  margin-top: 10px;
+}
