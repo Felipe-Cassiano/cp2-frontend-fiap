@@ -100,7 +100,7 @@ a {
 
 .integrantesContainer {
   background-color: black;
-  border-top: 20px solid chartreuse;
+  border-bottom: 20px solid chartreuse;
   padding: 60px 20px;
 }
 
