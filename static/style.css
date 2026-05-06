@@ -172,3 +172,45 @@ a {
 .footer-endereco {
   margin-top: 10px;
 }
+
+/* ===== SOBRE NOS ===== */
+
+#sobrenos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    background-color: black;
+}
+
+#sobrenos .sobrenos-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+}
+
+#sobrenos .textosn {
+    background-color: gray;
+    padding: 30px 40px 40px;
+    width: 45%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#sobrenos img {
+    width: 500px;
+    height: auto;
+    align-self: stretch;
+    object-fit: contain;
+}
+
+#sobrenos h2 {
+    display: inline-block;
+    background-color: chartreuse;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
