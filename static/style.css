@@ -157,6 +157,69 @@ a {
   font-size: 18px;
 }
 
+/* ===== CONTATE-NOS */
+
+#contateNos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 25px;
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.contateNosContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8f8f8f;
+    width: min-content;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contateNosContatos {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25vw;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    img {
+        width: 28px;
+    }
+}
+
+.contateNosInput {
+    display: flex;
+    flex-direction: column;
+    
+    input {
+        border-radius: 20px;
+        height: 20px;
+        border-style: none;
+        margin-top: 5px;
+
+        &::placeholder {
+            font-style: italic;
+        }
+    }
+}
+
+
+
 /* ===== FOOTER ===== */
 
 .footer {
