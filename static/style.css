@@ -192,6 +192,7 @@ header div{
     border-radius: 20px;
     padding: 10px 3px;
     width: 400px;
+    transition: transform 0.3s;
 
     h4 {
         background-color: chartreuse;
@@ -201,6 +202,11 @@ header div{
         border-radius: 10px;
         margin: auto;
     }
+
+}
+
+.proj-filho:hover {
+  transform: scale(1.08);
 }
 
 a {
