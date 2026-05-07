@@ -284,3 +284,8 @@ a {
     margin-bottom: 20px;
     text-align: center;
 }
+
+#sobrenos p::first-letter {
+  text-transform: uppercase;
+  color: chartreuse;
+}
